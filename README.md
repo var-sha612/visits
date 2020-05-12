@@ -10,11 +10,9 @@ docker rmi -f $(docker images -a -q)\n
 docker images
 docker container ls
 
-# Run - wont work because there is not network
+# Docker run
 docker run redis
 docker run visits
-
-# Services - Different containers in Docker compose file
 
 # Docker Compose commands
 docker-compose
